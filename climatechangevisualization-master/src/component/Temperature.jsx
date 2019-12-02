@@ -9,6 +9,7 @@ import {
   Legend,
   Label
 } from "recharts";
+import { Link } from 'react-router-dom';
 
 class Temperature extends Component {
   render() {
@@ -40,6 +41,7 @@ class Temperature extends Component {
             activeDot={{ r: 12 }}
           />
         </LineChart>
+        <Link to="/glaciersize">Click here</Link>
       </React.Fragment>
     );
   }
